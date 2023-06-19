@@ -23,6 +23,7 @@ public class NilaiAkhir extends Mahasiswa {
         return super.getNama();
     }
     
+    @Override
     public String getNpm(){
         System.out.println("subclass");
         return super.getNpm();
